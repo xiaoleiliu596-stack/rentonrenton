@@ -1,0 +1,8 @@
+{
+  "name": "奇门与紫微 · Python 3.12",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "postCreateCommand": "python -m pip install --require-hashes -r requirements.txt && python -m unittest -v",
+  "containerEnv": {
+    "PYTHONUTF8": "1"
+  }
+}
